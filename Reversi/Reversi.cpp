@@ -235,17 +235,17 @@ int main()
  		x0=input["requests"][i]["x"].asInt();
  		y0=input["requests"][i]["y"].asInt();
  		if(x0>=0)
- 			put_qi(x0,y0,-AI); // 模拟对方落子
+ 			put_qi(x0,y0,-AI); // 妯℃嫙瀵规柟钀藉瓙
  		x0=input["responses"][i]["x"].asInt();
  		y0=input["responses"][i]["y"].asInt();
  		if (x0>=0)
- 			put_qi(x0,y0,AI); // 模拟己方落子
+ 			put_qi(x0,y0,AI); // 妯℃嫙宸辨柟钀藉瓙
  	}
  	
  	x0=input["requests"][turnID]["x"].asInt();
  	y0=input["requests"][turnID]["y"].asInt();
  	if (x0>=0)
- 		put_qi(x0,y0,-AI); // 模拟对方落子
+ 		put_qi(x0,y0,-AI); // 妯℃嫙瀵规柟钀藉瓙
  		
  	if(!put_where(AI))
     {
