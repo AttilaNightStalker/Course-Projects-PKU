@@ -1,0 +1,7 @@
+parse([what,jobs,are,there,in,austin,for,people,with,knowledge,of,the,application,oracle,?], answer(A,(job(A),job(B),loc(B,C),const(C,'austin'),\+req_deg(D),job(E),const(E,'oracle')))).
+parse([show,me,the,senior,software,developer,jobs,which,require,a,master,?], answer(A,(job(A),job(B),title(B,C),job(C),const(C,master)))).
+parse([i,want,a,job,that,doesnt,use,windows,?], answer(A,(job(A),job(B),language(B,C),const(C,'windows')))).
+parse([are,there,jobs,that,do,not,require,a,degree,in,houston,?], answer(A,(job(A),job(B),language(B,C),job(C),loc(C,D),const(D,houston)))).
+parse([give,me,the,jobs,in,'c++',?], answer(A,(job(A),job(B),loc(B,C),language(B,C),const(C,'c++')))).
+parse([what,jobs,in,austin,require,10,years,of,experience,?], answer(A,(job(A),loc(A,B),const(B,'austin'),const(C,10),job(D)))).
+parse([are,there,any,jobs,using,'c++',with,dell,?], answer(A,(job(A),job(B),language(B,C),const(C,'c++'),const(D,'Dell')))).
