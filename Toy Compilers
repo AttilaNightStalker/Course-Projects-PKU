@@ -1,0 +1,3 @@
+The project of the Compiler course. 
+There are two intermediate language that server as bridges from programming language to assembly language, called eeyore and tigger. The final goal is compile a simplified C code to riscv assembly code.
+Syntax and lexicon parse are generated using Bison and Yacc tools. There is a verbose report in the pdf file in Chinese (This course wasn't taught in English). 
